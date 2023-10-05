@@ -151,3 +151,6 @@ resource "aws_instance" "server" {
   }
 
 }
+resource "aws_s3_bucket" "my_bucket" {
+    bucket = "swamy-terraform-bucket1047"  
+}
